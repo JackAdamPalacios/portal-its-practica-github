@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Servicios Médicos | Portal ITS</title>
+
+    <!-- CSS ORIGINAL DEL PROYECTO -->
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <!-- CSS SOLO PARA ESTA PÁGINA -->
+    <link rel="stylesheet" href="../css/servicios-medicos.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         ENCABEZADO ORIGINAL
+    ========================== -->
+    <header class="encabezado">
+        <div class="contenedor encabezado__contenido">
+
+            <div class="logo" aria-hidden="true">ITS</div>
+
+            <div>
+                <p class="encabezado__titulo">
+                    Servicios Médicos
+                </p>
+
+                <p class="encabezado__subtitulo">
+                    Portal colaborativo · Cómputo en la Nube
+                </p>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- =========================
+         CONTENIDO PRINCIPAL
+    ========================== -->
+    <main class="contenedor">
+
+        <article class="apartado apartado--servicios">
+
+            <h1 class="apartado__titulo">
+                Servicios médicos disponibles
+            </h1>
+
+            <p class="servicios__descripcion">
+                Consulta la información sobre los servicios médicos,
+                atención de enfermería, teléfonos de emergencia y seguros
+                disponibles para la comunidad estudiantil del Instituto
+                Tecnológico de Saltillo.
+            </p>
+
+
+            <!-- =====================================================
+                 RADIO BUTTONS
+                 Permiten cambiar de sección SIN JavaScript.
+                 No se muestran visualmente.
+            ====================================================== -->
+
+            <input
+                class="servicios__radio"
+                type="radio"
+                name="servicio"
+                id="tab-introduccion"
+                checked>
+
+            <input
+                class="servicios__radio"
+                type="radio"
+                name="servicio"
+                id="tab-enfermeria">
+
+            <input
+                class="servicios__radio"
+                type="radio"
+                name="servicio"
+                id="tab-emergencias">
+
+            <input
+                class="servicios__radio"
+                type="radio"
+                name="servicio"
+                id="tab-terminos">
+
+
+            <!-- =====================================================
+                 ÁREA DE SERVICIOS
+            ====================================================== -->
+
+            <div class="servicios">
+
+
+                <!-- =====================
+                     MENÚ LATERAL
+                ====================== -->
+                <aside class="servicios__menu">
+
+                    <label
+                        for="tab-introduccion"
+                        class="servicios__opcion opcion--introduccion">
+
+                        Introducción
+                    </label>
+
+
+                    <label
+                        for="tab-enfermeria"
+                        class="servicios__opcion opcion--enfermeria">
+
+                        Unidad de enfermería
+                    </label>
+
+
+                    <label
+                        for="tab-emergencias"
+                        class="servicios__opcion opcion--emergencias">
+
+                        Teléfonos para emergencias
+                    </label>
+
+
+                    <!-- ENLACE EXTERNO -->
+                    <a
+                        class="servicios__opcion servicios__opcion--externa"
+                        href="https://its-site-bucket.s3.us-west-2.amazonaws.com/Seguro_Facultativo_86d7d31897.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <span>Seguro de Salud para Estudiantes</span>
+
+                        <span class="servicios__externo" aria-hidden="true">
+                            ↗
+                        </span>
+                    </a>
+
+
+                    <!-- ENLACE EXTERNO -->
+                    <a
+                        class="servicios__opcion servicios__opcion--externa"
+                        href="https://its-site-bucket.s3.us-west-2.amazonaws.com/Seguro_Thona_f75087682e.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <span>Seguro Escolar</span>
+
+                        <span class="servicios__externo" aria-hidden="true">
+                            ↗
+                        </span>
+                    </a>
+
+
+                    <label
+                        for="tab-terminos"
+                        class="servicios__opcion opcion--terminos">
+
+                        Términos Seguro Escolar
+                    </label>
+
+                </aside>
+
+
+                <!-- =====================
+                     CONTENIDO DERECHO
+                ====================== -->
+                <div class="servicios__contenido">
+
+
+                    <!-- ==========================================
+                         INTRODUCCIÓN
+                    =========================================== -->
+                    <section
+                        class="servicios__seccion seccion--introduccion">
+
+                        <h2>Introducción</h2>
+
+                        <p>
+                            Toda nuestra población estudiantil tiene acceso
+                            a la atención médica a través de los servicios
+                            médicos y la seguridad social que el Instituto
+                            tiene a disposición de sus estudiantes.
+                        </p>
+
+                        <p>
+                            Se cuenta con una unidad de enfermería local,
+                            atención en el Seguro Social a través del Seguro
+                            de Salud para Estudiantes, además de un Seguro
+                            Escolar contra accidentes.
+                        </p>
+
+                    </section>
+
+
+                    <!-- ==========================================
+                         UNIDAD DE ENFERMERÍA
+                    =========================================== -->
+                    <section
+                        class="servicios__seccion seccion--enfermeria">
+
+                        <h2>Unidad de enfermería</h2>
+
+                        <p>
+                            La Unidad de Enfermería se encuentra ubicada
+                            adjunta al Gimnasio ITS y cuenta con personal
+                            de enfermería y médico para brindar atención
+                            en primera instancia.
+                        </p>
+
+                        <p>
+                            En caso de algún malestar o incidente se realiza
+                            una valoración inicial y posteriormente, cuando
+                            es necesario, el estudiante es canalizado al
+                            servicio médico correspondiente.
+                        </p>
+
+
+                        <h3>
+                            Actualmente se cuenta con el siguiente personal:
+                        </h3>
+
+                        <ul class="servicios__lista">
+                            <li>3 Enfermeras</li>
+                            <li>3 Médicos generales</li>
+                            <li>1 Oftalmólogo</li>
+                            <li>1 Dentista</li>
+                            <li>1 Psicóloga</li>
+                        </ul>
+
+
+                        <h3>
+                            Horario de atención
+                        </h3>
+
+                        <div class="servicios__horarios">
+
+                            <div class="servicios__horario">
+                                <span>Lunes a jueves</span>
+                                <strong>8:00 a.m. a 7:30 p.m.</strong>
+                            </div>
+
+                            <div class="servicios__horario">
+                                <span>Viernes</span>
+                                <strong>9:00 a.m. a 5:00 p.m.</strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="servicios__contacto">
+
+                            <strong>Teléfono:</strong>
+
+                            <span>
+                                438 9500 ext. 1142
+                            </span>
+
+                        </div>
+
+
+                        <p class="servicios__nota">
+                            Puedes marcar la extensión 1142 desde cualquier
+                            oficina del Tecnológico.
+                        </p>
+
+
+                        <div class="servicios__aviso">
+
+                            <strong>Importante:</strong>
+
+                            La unidad de servicios médicos no brinda
+                            tratamientos ni seguimiento a padecimientos
+                            prolongados. Se realiza la valoración inicial
+                            y se canaliza al estudiante al servicio médico
+                            correspondiente.
+
+                        </div>
+
+                    </section>
+
+
+                    <!-- ==========================================
+                         TELÉFONOS DE EMERGENCIA
+                    =========================================== -->
+                    <section
+                        class="servicios__seccion seccion--emergencias">
+
+                        <h2>Teléfonos para emergencias</h2>
+
+                        <p>
+                            Al llamar a un teléfono de emergencia debes
+                            <strong>
+                                especificar claramente la ubicación del
+                                accidente y la situación del afectado
+                            </strong>,
+                            además de dar aviso a la prefectura, jefatura
+                            u oficina más cercana.
+                        </p>
+
+                        <p>
+                            Esto permitirá informar al área de vigilancia
+                            y facilitar la entrada de los servicios de
+                            emergencia.
+                        </p>
+
+
+                        <ul class="servicios__telefonos">
+
+                            <li>
+                                <strong>Unidad de enfermería:</strong>
+                                438 95 00 ext. 1142
+                            </li>
+
+                            <li>
+                                <strong>Servicios Escolares:</strong>
+                                438 95 13
+                            </li>
+
+                            <li>
+                                <strong>Cruz Roja:</strong>
+                                911, 01 844 412 1206
+                            </li>
+
+                            <li>
+                                <strong>Bomberos:</strong>
+                                911, 01 844 415 4122
+                            </li>
+
+                            <li>
+                                <strong>Emergencias:</strong>
+                                911
+                            </li>
+
+                            <li>
+                                <strong>IMSS:</strong>
+                                414 1000, 414 1104, 414 1156
+                            </li>
+
+                        </ul>
+
+
+                        <p class="servicios__mensaje">
+                            ¡Recuerda que tu seguridad está en tus manos,
+                            cuídate, infórmate y tramita tu Seguro de Salud
+                            para Estudiantes!
+                        </p>
+
+                    </section>
+
+
+                    <!-- ==========================================
+                         TÉRMINOS DEL SEGURO ESCOLAR
+                    =========================================== -->
+                    <section
+                        class="servicios__seccion seccion--terminos">
+
+                        <h2>Términos Seguro Escolar</h2>
+
+                        <p>
+                            Todos los gastos derivados de la atención médica
+                            a través del Seguro Escolar deberán ser cubiertos
+                            por el beneficiario para poder realizar
+                            posteriormente el trámite de reembolso de gastos
+                            médicos.
+                        </p>
+
+
+                        <div class="servicios__aviso">
+
+                            <strong>Importante:</strong>
+
+                            El aviso del accidente y la atención médica
+                            deberán realizarse dentro de los primeros
+                            10 días de ocurrido el accidente para que
+                            puedan proceder las coberturas del Seguro
+                            Escolar.
+
+                        </div>
+
+
+                        <h3>
+                            Para recibir atención médica puedes acudir a:
+                        </h3>
+
+                        <ul class="servicios__lista">
+
+                            <li>Hospital Universitario</li>
+
+                            <li>
+                                Centro Hospitalario La Concepción
+                            </li>
+
+                            <li>Hospital Muguerza</li>
+
+                        </ul>
+
+
+                        <h3>
+                            Para otros centros médicos con convenio
+                            se deberá presentar:
+                        </h3>
+
+                        <ul class="servicios__lista">
+
+                            <li>
+                                Constancia de estudios vigente
+                            </li>
+
+                            <li>
+                                Credencial de estudiante vigente
+                            </li>
+
+                            <li>
+                                Identificación oficial
+                            </li>
+
+                        </ul>
+
+
+                        <div class="servicios__poliza">
+
+                            <span>
+                                Número de póliza
+                            </span>
+
+                            <strong>
+                                MetLife AE1489
+                            </strong>
+
+                        </div>
+
+
+                        <p>
+                            Las facturas de gastos médicos, estudios,
+                            medicamentos y hospitalización deberán estar
+                            a nombre del beneficiario.
+                        </p>
+
+                        <p>
+                            Para mayor información, acude al Departamento
+                            de Servicios Escolares.
+                        </p>
+
+                    </section>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- =====================
+                 BOTONES INFERIORES
+            ====================== -->
+
+            <div class="apartado__acciones">
+
+                <a
+                    class="enlace-fuente"
+                    href="https://saltillo.tecnm.mx/servicios-medicos/introduccion"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    Consultar fuente oficial
+                </a>
+
+
+                <a class="boton" href="../index.html">
+                    &larr; Regresar al inicio
+                </a>
+
+            </div>
+
+        </article>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER ORIGINAL
+    ========================== -->
+    <footer class="pie">
+
+        <div class="contenedor">
+
+            <p>
+                Elaborado por: Ana Sheila E. Sanchez Ramos · Portal ITS 2026
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
