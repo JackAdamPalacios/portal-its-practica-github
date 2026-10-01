@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 1. Título de la pestaña -->
+  <title>Misión del Programa | Portal ITS</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+
+  <header class="encabezado">
+    <div class="contenedor encabezado__contenido">
+      <div class="logo" aria-hidden="true">ITS</div>
+      <div>
+        <p class="encabezado__titulo">Ingeniería Industrial</p>
+        <p class="encabezado__subtitulo">Portal colaborativo · Cómputo en la Nube</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <article class="apartado">
+
+      <!-- 2. Título principal del apartado -->
+      <h1 class="apartado__titulo">Misión del Programa</h1>
+
+      <!-- 3. Imagen con texto alternativo -->
+      <figure class="apartado__figura">
+        <img src="../imagenes/Industrial.png"
+             alt="Misión del Programa de Ingeniería Industrial"
+             class="apartado__imagen">
+      </figure>
+
+      <!-- 4. Párrafos en español e inglés basados en la página oficial del ITS -->
+      <h2 class="apartado__subtitulo">Misión del programa</h2>
+      <p class="apartado__parrafo">
+        Formar profesionistas íntegros y competentes que se desarrollen exitosamente en el ámbito laboral, mediante el diseño, implementación, gestión, solución y formulación de sistemas, procesos y proyectos enfocados en la mejora de los sistemas productivos de las organizaciones. Con un compromiso ético, orientados a la innovación, la mejora continua y la sustentabilidad, contribuyendo al desarrollo económico, tecnológico y social de su entorno.
+      </p>
+
+      <h2 class="apartado__subtitulo">Mission of the program</h2>
+      <p class="apartado__parrafo">
+        To educate responsible and competent professionals who can succeed in the workplace by designing, implementing, managing, solving, and developing systems, processes, and projects focused on improving the productive systems of organizations. With a strong ethical commitment, they are guided by innovation, continuous improvement, and sustainability, contributing to the economic, technological, and social development of their communities.
+      </p>
+
+     
+
+      <!-- 6. Enlace a la fuente oficial + botón de regreso -->
+      <div class="apartado__acciones">
+        <a class="enlace-fuente" href="https://saltillo.tecnm.mx/carreras/industrial/mision-del-programa-educativo" target="_blank" rel="noopener noreferrer">
+          Consultar fuente oficial
+        </a>
+        <a class="boton" href="../index.html">&larr; Regresar al inicio</a>
+      </div>
+
+    </article>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>Elaborado por: Nombre del alumno · Portal ITS 2026</p>
+    </div>
+  </footer>
+
+</body>
+</html>
